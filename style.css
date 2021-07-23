@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+/* design of first part */
+.heading{
+    background-color:#2D25A0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    
+}
+.heading:hover .banner{
+    transform: translate(-50px);
+    transition: transform .5s ease-in;
+}
+.writing h1{
+    Width: 485px;
+    Height: 230px;
+    color: white;
+    margin-left: 156px;
+    margin-bottom: 240px;
+    margin-top: 207px;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+}
+.banner img{
+    width: 556.01px;
+    height: 438px;
+    margin-right: 140.99px;
+    margin-top: 157px;
+}
+button{
+    color: white;
+    background-color: #E02C6D;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    width: 168px;
+    height: 44px;
+    position: absolute;
+    top: 464px;
+    left: 156px;
+}
+/* design of second part */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 27px;
+    align-content: center;
+    
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+.player h2{
+    
+    width: 300px;
+    
+    top: 0%;
+    
+}
+.player p{
+    width: 300px;
+    margin-top: 0px;
+    
+    
+}
+.player{
+    width: 330px;
+    height: 474px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+}
+/* last part design */
+.ending{
+    display: flex;
+    justify-content: space-between;
+}
+
+.end-writing{
+    margin-left: 182px;
+    margin-top: 456px;
+    width: 466px;
+    height: 241px;
+    
+}
+.end-pic img{
+    width: 567px;
+    height: 427px;
+    margin-right: 156px;
+    margin-top: 397px;
+
+}
+.highlights{
+    color: white;
+    background-color: #E02C6D;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    position: static;
+    width: 173px;
+    height: 44px;
+    left: 0px;
+    top: 265px;
+    padding: 10px 24px;
+}
+
+/* footer part */
+
+.icons{
+    display: flex;
+    width: 170px;
+    height: 32px;
+    margin-left: 631.94px;
+}
+.icons img{
+    width: 32px;
+    height: 32px;
+    
+}
+.big-image{
+    width: 483.87px;
+    height: 110px;
+    margin-top: 158px;
+    margin-left: 475px;
+}
+.small-image{
+    margin-right: 14px;
+}
+.footer-words{
+    margin-left: 598.94px;
+    margin-top: 20px;
+    margin-bottom: 63px;
+    font-size: 18px;
+}
+/* making responsive */
+@media only screen and (max-width:688px){
+    body{
+        width: 100%;
+    }
+    .writing h1{
+        width: 278px;
+        height: 138px;
+        font-size: 36px;
+        margin-left: 16px;
+    }
+    .banner img{
+        width: 329px;
+        height: 259.17px;
+    }
+    .players{
+        grid-template-columns: repeat(1,1fr);
+        
+       
+    }
+    .heading{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .button{
+        width: 168px;
+        height: 44px;
+        left: 19px;
+        top: 280px;
+        position: absolute;
+    }
+    .writing{
+        margin-bottom: 50px;
+    }
+    .ending{
+        display: flex;
+        flex-direction: column;
+    }
+    .end-writing{
+        margin-top: 19px;
+        margin-left: 15px;
+        width: 328px;
+        height: 248px;
+    }
+    .end-pic img{
+        width: 328px;
+        height: 248px;
+        margin-right: 16px;
+        margin-top: 29px;
+    }
+    .big-image{
+        width: 150px;
+        height: 69px;
+        margin-top: 43px;
+        margin-left: 90px;
+    }
+    .icons{
+        margin-left: 95px;
+    }
+    .footer-words{
+        margin-left: 62px;
+        margin-top: 20px;
+        margin-bottom: 187px;
+        font-size: 18px;
+    }
+}
